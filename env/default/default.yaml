@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     directory:
-      recourse: true
+      recurse: true
     path: env/default
     repoURL: https://github.com/sucre4me/argocd-demo
     targetRevision: main
