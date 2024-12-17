@@ -12,8 +12,8 @@ spec:
     directory:
       recurse: true
     path: env/default
-    repoURL: https://github.com/sucre4me/argocd-demo
     targetRevision: main
+    repoURL: https://github.com/sucre4me/argocd-demo
   syncPolicy:
     automated:
       prune: true
