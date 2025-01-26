@@ -1,13 +1,13 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: default
+  name: my-app-application
   namespace: argocd
 spec:
   destination:
-    namespace: argocd
+    namespace: oyinda
     server: https://kubernetes.default.svc
-  project: default
+  project: my-app-project
   source:
     directory:
       recurse: true
